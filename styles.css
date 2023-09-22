@@ -1,0 +1,25 @@
+body{
+  color: white;
+  background-color: #ad6594;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("hedge.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 1340;
+
+#door{
+    position: absolute;
+    center: 150px;
+    left: calc(40vw - 150px);
+    z-index: -1;
+  }
+
+#closed{
+  position: absolute;
+  bottom: 170px;
+  left: calc(43vw - 110px);
+}
+
+#closed:hover{
+  opacity: 0.0;
+}
