@@ -1,11 +1,9 @@
 body{
   color: white;
-  background-color: #a7d9d8;
+  background-color: #378786;
   font-family: 'Montserrat', sans-serif;
-  background-image: url("hedge.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 1340;
+  font-size: #30
+}
 
 #door{
     position: absolute;
